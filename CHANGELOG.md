@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.2] - 2026-03-03
+
+### Changed
+- Replaced external placeholder image service (`placehold.co`) with inline SVG data URI for `NoPhoto.jpg` replacements.
+- Added local `assets/placeholder.svg` reference asset.
+- Bumped userscript version to `0.1.2`.
+
 ## [0.1.1] - 2026-03-02
 
 ### Added
