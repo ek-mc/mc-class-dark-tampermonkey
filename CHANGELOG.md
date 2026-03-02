@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.3] - 2026-03-03
+
+### Added
+- Added `LICENSE` file with MIT license.
+
+### Changed
+- Bumped userscript version to `0.1.3`.
+
 ## [0.1.2] - 2026-03-03
 
 ### Changed
