@@ -187,6 +187,9 @@ img, video, canvas, svg { filter:brightness(.92) contrast(1.05); }
   };
 
   const makeDarkPlaceholder = () => {
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675"><rect width="1200" height="675" fill="#161a22"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#f2f6ff" font-size="54" font-family="Arial, sans-serif">No Preview</text></svg>`;
+    const placeholderDataUri = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+
     const imgs = document.querySelectorAll('img.w-100, img[src*="NoPhoto.jpg"], img[src*="nophoto.jpg"]');
     imgs.forEach((img) => {
       const src = (img.getAttribute('src') || '').toLowerCase();
@@ -194,7 +197,7 @@ img, video, canvas, svg { filter:brightness(.92) contrast(1.05); }
       if (!isNoPhoto) return;
       if (img.dataset.darkPatched === '1') return;
       img.dataset.darkPatched = '1';
-      img.src = 'https://placehold.co/1200x675/161a22/f2f6ff?text=No+Preview';
+      img.src = placeholderDataUri;
       img.style.background = '#161a22';
       img.style.border = '1px solid #2f3440';
       img.style.borderRadius = '8px';
