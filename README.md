@@ -29,3 +29,16 @@ Dark theme userscript for `mc-class.gr`.
 
 - If a page element still looks off, inspect its class/id and add it to the script selectors.
 - This script is tailored for `mc-class.gr` and may need updates if site HTML changes.
+
+## License
+
+See [LICENSE](LICENSE).
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md).
+
+## Support
+
+For issues, use [GitHub Issues](https://github.com/ek-mc/mc-class-dark-tampermonkey/issues).
+
