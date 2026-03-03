@@ -20,6 +20,9 @@ Dark theme userscript for `mc-class.gr`.
 
 - `mc-class-dark.user.js` — the userscript
 
+## Version
+- 0.1.3
+
 ## Notes
 
 - If a page element still looks off, inspect its class/id and add it to the script selectors.
