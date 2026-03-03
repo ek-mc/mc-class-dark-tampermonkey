@@ -2,6 +2,8 @@
 
 Dark theme userscript for `mc-class.gr`.
 
+![MC-Class Dark Theme preview](assets/screenshots/preview.jpg)
+
 ## Install
 
 1. Install Tampermonkey extension in your browser.
