@@ -1,11 +1,15 @@
 # Changelog
 
+## [Unreleased]
+
 ## [0.1.4] - 2026-03-04
 
 ### Added
 - Documented GitHub Actions workflows in README.
 
 # Changelog
+
+## [Unreleased]
 
 All notable changes to this project will be documented in this file.
 
