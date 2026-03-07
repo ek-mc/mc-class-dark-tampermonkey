@@ -8,6 +8,8 @@
 // @match        *://*.mc-class.gr/*
 // @run-at       document-start
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/ek-mc/mc-class-dark-tampermonkey/main/mc-class-dark.user.js
+// @updateURL    https://raw.githubusercontent.com/ek-mc/mc-class-dark-tampermonkey/main/mc-class-dark.user.js
 // ==/UserScript==
 
 (function () {
