@@ -23,7 +23,7 @@ Dark theme userscript for `mc-class.gr`.
 - `mc-class-dark.user.js` — the userscript
 
 ## Version
-- 0.1.3
+- 0.1.4
 
 ## Notes
 
