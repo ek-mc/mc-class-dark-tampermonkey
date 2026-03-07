@@ -1,6 +1,12 @@
-# Changelog
-
 ## [Unreleased]
+
+## [0.1.4] - 2026-03-07
+
+### Fixed
+- Improved login text readability on dark blue backgrounds by forcing light text color for login-text selectors.
+
+### Changed
+- Bumped userscript version to `0.1.4`.
 
 ## [0.1.4] - 2026-03-04
 
