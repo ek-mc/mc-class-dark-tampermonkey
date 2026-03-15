@@ -4,6 +4,7 @@
 // @version      0.1.5
 // @description  Dark theme for mc-class.gr
 // @author       ek-mc
+// @license      MIT
 // @match        *://mc-class.gr/*
 // @match        *://*.mc-class.gr/*
 // @run-at       document-start
