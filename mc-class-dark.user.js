@@ -203,6 +203,14 @@ ol {
 }
 
 img, video, canvas, svg { filter:brightness(.92) contrast(1.05); }
+
+/* Global low-contrast rescue for legacy hardcoded gray text on dark backgrounds */
+[style*="#515050"],
+[style*="#515050" i],
+[style*="rgb(81,80,80)"],
+[style*="rgb(81, 80, 80)"] {
+  color: var(--mc-text) !important;
+}
 `;
 
   const style = document.createElement('style');
