@@ -105,6 +105,23 @@ button:hover, .btn:hover { background:#2b3550 !important; }
   border:1px solid #2f3440 !important;
 }
 
+/* Notification detail readability (ViewNotificationDescr often has hardcoded low-contrast gray) */
+.ViewNotificationDescr,
+#ViewNotificationDescr,
+[class*="ViewNotificationDescr"],
+[id*="ViewNotificationDescr"],
+.ViewNotificationDescr p,
+.ViewNotificationDescr span,
+.ViewNotificationDescr div,
+#ViewNotificationDescr p,
+#ViewNotificationDescr span,
+#ViewNotificationDescr div,
+.ViewNotificationDescr [style*="color"],
+#ViewNotificationDescr [style*="color"] {
+  color:var(--mc-text) !important;
+  opacity:1 !important;
+}
+
 /* Navbar toggler fix */
 .navbar-toggler {
   background:var(--mc-panel) !important;
