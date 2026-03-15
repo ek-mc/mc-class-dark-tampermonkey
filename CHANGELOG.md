@@ -1,5 +1,11 @@
 ## [Unreleased]
 
+## [0.1.6] - 2026-03-15
+
+### Fixed
+- Improved readability for news/notification text areas (`NewsBoxDescr`, `ViewNewDescr`, `ViewNewTitle`, `NewsBoxTitle`).
+- Added dark-theme-safe override for legacy bright green backgrounds (`#7cb742` -> blue-green accent).
+
 ## [0.1.5] - 2026-03-15
 ### Fixed
 - Improved notification detail readability by overriding hardcoded low-contrast gray (`#515050`) text in dark mode.

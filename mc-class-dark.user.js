@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MC-Class Dark Theme
 // @namespace    https://mc-class.gr/
-// @version      0.1.5
+// @version      0.1.6
 // @description  Dark theme for mc-class.gr
 // @author       ek-mc
 // @license      MIT
@@ -204,6 +204,31 @@ ol {
 }
 
 img, video, canvas, svg { filter:brightness(.92) contrast(1.05); }
+
+/* News/notification readability fixes */
+.NewsBoxDescr,
+.ViewNewDescr p,
+.ViewNewTitle h3,
+.NewsBoxTitle,
+.NewsBoxDescr *,
+.ViewNewDescr *,
+.ViewNewTitle *,
+.NewsBoxTitle * {
+  color: var(--mc-text) !important;
+  opacity: 1 !important;
+}
+
+/* Replace legacy bright-green backgrounds with dark-theme-safe accent */
+[style*="background-color:#7cb742"],
+[style*="background-color: #7cb742"],
+[style*="background:#7cb742"],
+[style*="background: #7cb742"],
+[style*="rgb(124,183,66)"],
+[style*="rgb(124, 183, 66)"] {
+  background-color: #2d6a8a !important;
+  border-color: #3f86ab !important;
+  color: #eaf6ff !important;
+}
 
 /* Global low-contrast rescue for legacy hardcoded gray text on dark backgrounds */
 [style*="#515050"],
