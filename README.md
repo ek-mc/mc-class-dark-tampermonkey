@@ -1,6 +1,5 @@
 # MC-Class Dark Theme (Tampermonkey)
 
-Status: Active | Last release: v0.1.4 | Last update: 2026-03-07 | Live: https://greasyfork.org/en/scripts/568157-mc-class-dark-theme
 
 
 Dark theme userscript for `mc-class.gr`.
