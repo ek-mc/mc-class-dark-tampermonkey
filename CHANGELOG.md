@@ -1,4 +1,12 @@
-## [Unreleased]
+# Changelog
+
+## [0.1.7] - 2026-03-21
+
+### Changed
+- Completed lesson icons are now outline-only (no filled background) for:
+  - `.UnitAssets .AssetIconCompleted`
+  - `.Completed .LessonBoxFooterIconCompleted`
+- Updated completed icon color to `rgb(2, 133, 255)` for icon glyphs.
 
 ## [0.1.6] - 2026-03-15
 
@@ -26,7 +34,6 @@
 
 # Changelog
 
-## [Unreleased]
 
 All notable changes to this project will be documented in this file.
 
@@ -71,3 +78,4 @@ All notable changes to this project will be documented in this file.
 
 ### Notes
 - This release is tuned against current mc-class markup and may require updates if upstream HTML/CSS changes.
+
