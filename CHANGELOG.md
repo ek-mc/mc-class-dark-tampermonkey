@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.11] - 2026-04-02
+
+### Fixed
+- Extended survey dark-theme styling to `.SurveyNb`:
+  - dark panel background
+  - readable light text color
+
 ## [0.1.10] - 2026-04-02
 
 ### Fixed
