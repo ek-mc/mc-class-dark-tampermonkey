@@ -282,6 +282,11 @@ i.RDCicon-completed {
   color: var(--mc-text) !important;
 }
 
+.SurveyNb {
+  background: var(--mc-panel) !important;
+  color: var(--mc-text) !important;
+}
+
 `;
 
   const style = document.createElement('style');
