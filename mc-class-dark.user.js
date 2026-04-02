@@ -268,6 +268,20 @@ i.RDCicon-completed {
   text-shadow: none !important;
 }
 
+/* Survey readability fixes */
+.SectorContainer {
+  background: var(--mc-panel) !important;
+  color: var(--mc-text) !important;
+}
+
+.SurveyEkfwnisiText {
+  color: var(--mc-text) !important;
+}
+
+.MainSurveyHeader.fixed .SurveyHeaderInfo {
+  color: var(--mc-text) !important;
+}
+
 `;
 
   const style = document.createElement('style');
