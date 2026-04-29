@@ -111,3 +111,7 @@ All notable changes to this project will be documented in this file.
 ### Notes
 - This release is tuned against current mc-class markup and may require updates if upstream HTML/CSS changes.
 
+## 2026-04-29
+
+- Added basic GitHub Actions CI workflow (`.github/workflows/basic-ci.yml`).
+- Maintenance: closed stale dependency PR queue for cleaner triage (where applicable).
