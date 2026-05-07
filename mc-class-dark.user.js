@@ -404,3 +404,7 @@ label.BoxTeacher,
 .main {
   background: var(--mc-bg) !important;
 }
+
+.card {
+  background-color:var(--mc-bg) !important;
+}
