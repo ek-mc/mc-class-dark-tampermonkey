@@ -344,3 +344,12 @@ i.RDCicon-completed {
     makeDarkPlaceholder();
   }).observe(document.documentElement, { childList: true, subtree: true });
 })();
+
+
+.InProgress {
+  background-color: #55607A !important;
+}
+
+.LessonBoxFooterIconInProgress i {
+  color: #55607A !important;
+}
