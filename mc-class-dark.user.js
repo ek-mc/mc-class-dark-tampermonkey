@@ -28,7 +28,7 @@ html, body { background:var(--mc-bg) !important; color:var(--mc-text) !important
 
 body *, body *::before, body *::after { border-color:#2f3440 !important; }
 
-header, nav, footer, main, section, article, aside,
+nav, footer, main, section, article, aside,
 .container, .content, .card, .panel, .box, .modal, .dropdown-menu,
 .table, table, thead, tbody, tr, td, th,
 input, textarea, select,
@@ -36,6 +36,11 @@ input, textarea, select,
 .breadcrumb,
 .LessonBoxTeachers {
   background-color:var(--mc-surface) !important;
+  color:var(--mc-text) !important;
+}
+
+header {
+  background-color:var(--mc-panel) !important;
   color:var(--mc-text) !important;
 }
 
