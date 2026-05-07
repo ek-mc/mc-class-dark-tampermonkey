@@ -336,17 +336,36 @@ i.RDCicon-completed {
     });
   };
 
-  inject();
-  makeDarkPlaceholder();
+  const forceListViewOnce = () => {
+    const input = document.querySelector('#ctl00_cphMain_txtHiddenLessonView');
+    if (!input) return;
 
-  document.addEventListener('DOMContentLoaded', () => {
+    const key = `mc-class-force-list-once:${location.pathname}${location.search}`;
+    if (input.value === '2') {
+      sessionStorage.setItem(key, '1');
+      return;
+    }
+
+    if (sessionStorage.getItem(key) === '1') return;
+    if (typeof window.__doPostBack !== 'function') return;
+
+    input.value = '2';
+    window.__doPostBack('ctl00_cphMain_upPanelLessonView', 'update');
+    sessionStorage.setItem(key, '1');
+  };
+
+  const apply = () => {
     inject();
     makeDarkPlaceholder();
-  });
+    forceListViewOnce();
+  };
+
+  apply();
+
+  document.addEventListener('DOMContentLoaded', apply);
 
   new MutationObserver(() => {
-    inject();
-    makeDarkPlaceholder();
+    apply();
   }).observe(document.documentElement, { childList: true, subtree: true });
 })();
 
