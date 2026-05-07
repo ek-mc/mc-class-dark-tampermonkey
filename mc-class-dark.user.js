@@ -20,7 +20,7 @@
 :root {
   color-scheme: dark !important;
   --mc-bg: #0f1115;
-  --mc-surface: #0f1115;
+  --mc-surface: #161a22;
   --mc-panel: #0B1220;
   --mc-text: #f0f6fc;
 }
@@ -399,4 +399,8 @@ label.BoxTeacher,
 .BoxRoomTitle,
 .BoxDurationTitle {
   color: var(--mc-text) !important;
+}
+
+.main {
+  background: var(--mc-bg) !important;
 }
