@@ -344,6 +344,11 @@ i.RDCicon-completed {
     const val = (input && input.value || '').trim();
     if (val === '2') return 'list';
     if (val === '1') return 'grid';
+
+    const listIcon = document.querySelector('i.LessonView.RDCicon-list');
+    const gridIcon = document.querySelector('i.LessonView.RDCicon-grid-view');
+    if (listIcon?.className?.toLowerCase().includes('active')) return 'list';
+    if (gridIcon?.className?.toLowerCase().includes('active')) return 'grid';
     return null;
   };
 
@@ -380,6 +385,13 @@ i.RDCicon-completed {
     }
 
     return { list, grid };
+  };
+
+  const canTriggerToggle = (el) => {
+    if (!el) return false;
+    const onclick = (el.getAttribute('onclick') || '').toLowerCase();
+    if (!onclick.includes('__dopostback')) return true;
+    return typeof window.__doPostBack === 'function';
   };
 
   const bindPreferenceTracking = () => {
@@ -420,13 +432,17 @@ i.RDCicon-completed {
 
     // If view mismatches preference, always try to switch (even if FORCED_KEY was set earlier).
     if (pref === 'grid') {
-      if (grid) grid.click();
-      sessionStorage.setItem(FORCED_KEY, '1');
+      if (grid && canTriggerToggle(grid)) {
+        grid.click();
+        sessionStorage.setItem(FORCED_KEY, '1');
+      }
       return;
     }
 
-    if (list) list.click();
-    sessionStorage.setItem(FORCED_KEY, '1');
+    if (list && canTriggerToggle(list)) {
+      list.click();
+      sessionStorage.setItem(FORCED_KEY, '1');
+    }
   };
 
   const apply = () => {
