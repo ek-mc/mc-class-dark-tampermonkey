@@ -268,8 +268,6 @@ img, video, canvas, svg { filter:brightness(.92) contrast(1.05); }
 .BoxStatus.Completed i,
 i.RDCicon-completed {
   color: #526d82 !important;
-  background: transparent !important;
-  text-shadow: none !important;
 }
 
 /* Survey readability fixes */
@@ -372,11 +370,6 @@ i.RDCicon-completed {
 .InProgress {
   background-color: #55607A !important;
 }
-
-.LessonBoxFooterIconInProgress i {
-  color: #55607A !important;
-}
-
 
 /* Additional dark-theme alignment */
 .badge-danger {
@@ -482,7 +475,7 @@ h3 {
 
 .sidebar .nav-link i {
   width: 20px !important;
-  margin: 0 1.2rem 0 0 !important;
+  margin: 0 0.8rem 0 0 !important;
   font-size: 14px !important;
   color: #fff !important;
 }
