@@ -411,13 +411,14 @@ i.RDCicon-completed {
     } catch {}
 
     const current = getCurrentView();
+
+    // If already in preferred view, mark applied for this path and stop.
     if (current === pref) {
       sessionStorage.setItem(FORCED_KEY, '1');
       return;
     }
 
-    if (sessionStorage.getItem(FORCED_KEY) === '1') return;
-
+    // If view mismatches preference, always try to switch (even if FORCED_KEY was set earlier).
     if (pref === 'grid') {
       if (grid) grid.click();
       sessionStorage.setItem(FORCED_KEY, '1');
