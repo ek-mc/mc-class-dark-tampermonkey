@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MC-Class Dark Theme
 // @namespace    https://mc-class.gr/
-// @version      0.1.11
+// @version      0.1.12
 // @description  Dark theme for mc-class.gr
 // @author       ek-mc
 // @license      MIT
@@ -279,7 +279,13 @@ i.RDCicon-completed {
 }
 
 .MainSurveyHeader.fixed .SurveyHeaderInfo {
+  background: var(--mc-bg) !important;
   color: var(--mc-text) !important;
+}
+
+.questionItemLikert:nth-child(2n+1),
+.questionItemLikert:nth-child(2n) {
+  background: var(--mc-bg) !important;
 }
 
 .SurveyNb {
