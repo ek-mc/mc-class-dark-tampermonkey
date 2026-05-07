@@ -408,3 +408,7 @@ label.BoxTeacher,
 .card {
   background-color:var(--mc-bg) !important;
 }
+
+.LessonBoxTitle {
+  color: var(--mc-text) !important;
+}
