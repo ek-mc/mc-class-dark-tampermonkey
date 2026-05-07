@@ -412,3 +412,9 @@ label.BoxTeacher,
 .LessonBoxTitle {
   color: var(--mc-text) !important;
 }
+
+
+.BoxRoomCode,
+.BoxDurationTime {
+  color: var(--mc-text) !important;
+}
