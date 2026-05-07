@@ -563,3 +563,10 @@ label.BoxTeacher,
 .AssetClick:focus {
   color: rgb(68, 147, 248) !important;
 }
+
+
+.BoxAbsencesInfoLesson,
+.BoxAbsencesInfoTeacher,
+.BoxAbsencesInfoClass {
+  color: var(--mc-text) !important;
+}
