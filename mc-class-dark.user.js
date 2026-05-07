@@ -21,7 +21,7 @@
   color-scheme: dark !important;
   --mc-bg: #0f1115;
   --mc-surface: #161a22;
-  --mc-panel: #141b2d;
+  --mc-panel: #0B1220;
   --mc-text: #f0f6fc;
 }
 html, body { background:var(--mc-bg) !important; color:var(--mc-text) !important; }
@@ -369,7 +369,7 @@ i.RDCicon-completed {
 }
 
 .StartsInCert {
-  background-color: #2C7A7B !important;
+  background-color: #4C51BF !important;
 }
 
 
@@ -388,5 +388,13 @@ NotificationTitle {
 }
 
 .BoxLessonTeacher label {
+  color: var(--mc-text) !important;
+}
+
+
+label.BoxTeacher,
+.BoxDates.SameDay,
+.BoxRoomTitle,
+.BoxDurationTitle {
   color: var(--mc-text) !important;
 }
