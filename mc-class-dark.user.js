@@ -473,3 +473,8 @@ h3 {
 .ViewNotificationAvatar {
   background-color: var(--mc-bg) !important;
 }
+
+
+.AccordionCard-body:hover {
+  color: rgb(68, 147, 248) !important;
+}
