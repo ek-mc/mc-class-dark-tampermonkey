@@ -570,3 +570,8 @@ label.BoxTeacher,
 .BoxAbsencesInfoClass {
   color: var(--mc-text) !important;
 }
+
+
+.StartsInCert {
+  background-color: #55607A !important;
+}
