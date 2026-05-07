@@ -270,7 +270,7 @@ i.RDCicon-completed {
 
 /* Survey readability fixes */
 .SectorContainer {
-  background: var(--mc-panel) !important;
+  background: var(--mc-bg) !important;
   color: var(--mc-text) !important;
 }
 
@@ -297,7 +297,7 @@ i.RDCicon-completed {
 }
 
 .SurveyNb {
-  background: var(--mc-panel) !important;
+  background: var(--mc-bg) !important;
   color: var(--mc-text) !important;
 }
 
