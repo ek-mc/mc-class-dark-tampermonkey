@@ -289,7 +289,7 @@ i.RDCicon-completed {
 }
 
 .help_desk_toggle {
-  background: var(--mc-bg) !important;
+  background: var(--mc-panel) !important;
 }
 
 .SurveyNb {
