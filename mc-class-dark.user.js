@@ -292,6 +292,10 @@ i.RDCicon-completed {
   background: var(--mc-panel) !important;
 }
 
+.sidebar {
+  background: var(--mc-panel) !important;
+}
+
 .SurveyNb {
   background: var(--mc-panel) !important;
   color: var(--mc-text) !important;
