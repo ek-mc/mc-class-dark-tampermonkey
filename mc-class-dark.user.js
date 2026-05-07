@@ -381,3 +381,12 @@ i.RDCicon-completed {
 NotificationTitle {
   color: #f0f6fc !important;
 }
+
+
+.BoxDates {
+  color: var(--mc-text) !important;
+}
+
+.BoxLessonTeacher label {
+  color: var(--mc-text) !important;
+}
