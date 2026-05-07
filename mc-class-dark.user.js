@@ -136,7 +136,6 @@ button:hover, .btn:hover { background:#2b3550 !important; }
 /* Navbar toggler fix */
 .navbar-toggler {
   background:var(--mc-panel) !important;
-  border:1px solid #3a4968 !important;
 }
 .navbar-toggler-icon {
   filter: invert(1) brightness(1.8) !important;
