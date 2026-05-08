@@ -21,7 +21,7 @@
   color-scheme: dark !important;
   --mc-bg: #0f1115;
   --mc-surface: #161a22;
-  --mc-panel: rgba(255, 255, 255, 0.05);
+  --mc-panel: rgb(13, 17, 23);
   --mc-text: #f0f6fc;
 }
 html, body { background:var(--mc-bg) !important; color:var(--mc-text) !important; }
