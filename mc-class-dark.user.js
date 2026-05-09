@@ -30,13 +30,17 @@ body *, body *::before, body *::after { border-color:#2f3440 !important; }
 
 nav, footer, main, section, article, aside,
 .container, .content, .card, .panel, .box, .modal, .dropdown-menu,
-.table, table, thead, tbody, tr, td, th,
+table, thead, tbody, tr, td, th,
 input, textarea, select,
 #opac-main-search,
 .breadcrumb,
 .LessonBoxTeachers {
   background-color:var(--mc-surface) !important;
   color:var(--mc-text) !important;
+}
+
+.table {
+  background-color:var(--mc-panel) !important;
 }
 
 header {
@@ -431,6 +435,7 @@ i.RDCicon-completed {
 
 .help_desk_toggle {
   background: var(--mc-panel) !important;
+  border-right: 1px solid #2f3440 !important;
 }
 
 .sidebar {
