@@ -383,6 +383,7 @@ i.RDCicon-completed {
 .sidebar {
   background: var(--mc-panel) !important;
   border-right: 1px solid #2f3440 !important;
+  box-shadow: inset -1px 0 0 #2f3440 !important;
 }
 
 .SurveyNb {
