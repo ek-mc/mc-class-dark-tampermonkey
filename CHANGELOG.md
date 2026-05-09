@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.23] - 2026-05-09
+
+### Fixed
+- `.DropItems` now explicitly uses `background: var(--mc-panel)`.
+
 ## [0.1.22] - 2026-05-09
 
 ### Changed

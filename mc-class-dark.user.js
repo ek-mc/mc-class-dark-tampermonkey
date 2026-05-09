@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MC-Class Dark Theme
 // @namespace    https://mc-class.gr/
-// @version      0.1.22
+// @version      0.1.23
 // @description  Dark theme for mc-class.gr
 // @author       ek-mc
 // @license      MIT
@@ -89,6 +89,7 @@ a:hover, a:focus { color:#a9c7ff !important; }
 
 .DropItems {
   padding: 6px 8px !important;
+  background: var(--mc-panel) !important;
 }
 
 /* Keep dropdown icons centered in their own fixed slot */
