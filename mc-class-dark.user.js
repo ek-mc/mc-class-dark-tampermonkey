@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MC-Class Dark Theme
 // @namespace    https://mc-class.gr/
-// @version      0.1.18
+// @version      0.1.19
 // @description  Dark theme for mc-class.gr
 // @author       ek-mc
 // @license      MIT
@@ -195,6 +195,11 @@ span.menu-text {
 
 /* Sidebar minimized fix: keep only icon, hide tiny label text */
 @media (min-width: 992px) {
+  .sidebar-minimized .sidebar .sidebar-nav .nav .nav-item {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
   .sidebar-minimized .sidebar .sidebar-nav .nav .nav-link {
     display: flex !important;
     align-items: center !important;
@@ -204,11 +209,13 @@ span.menu-text {
     padding-right: 0 !important;
   }
 
-  .sidebar-minimized .sidebar .sidebar-nav .nav .menu-icon {
+  .sidebar-minimized .sidebar .sidebar-nav .nav .menu-icon,
+  .sidebar-minimized .sidebar .sidebar-nav .nav .nav-link i {
     margin: 0 !important;
     font-size: 18px !important;
     line-height: 1 !important;
     min-width: 18px !important;
+    width: 18px !important;
     text-align: center !important;
   }
 
@@ -255,8 +262,12 @@ span.menu-text {
 
   .sidebar-minimized .sidebar .sidebar-nav .nav .nav-link:hover .menu-text,
   .sidebar-minimized .sidebar .sidebar-nav .nav .nav-link:focus .menu-text,
+  .sidebar-minimized .sidebar .sidebar-nav .nav .nav-link:hover span.menu-text,
+  .sidebar-minimized .sidebar .sidebar-nav .nav .nav-link:focus span.menu-text,
   .sidebar-minimized .sidebar .sidebar-nav .nav .nav-item:hover > .nav-link .menu-text,
-  .sidebar-minimized .sidebar .sidebar-nav .nav .nav-item:focus-within > .nav-link .menu-text {
+  .sidebar-minimized .sidebar .sidebar-nav .nav .nav-item:focus-within > .nav-link .menu-text,
+  .sidebar-minimized .sidebar .sidebar-nav .nav .nav-item:hover > .nav-link span.menu-text,
+  .sidebar-minimized .sidebar .sidebar-nav .nav .nav-item:focus-within > .nav-link span.menu-text {
     display: inline-block !important;
     width: auto !important;
     opacity: 1 !important;
@@ -392,7 +403,7 @@ i.RDCicon-completed {
 
 /* Survey readability fixes */
 .SectorContainer {
-  background: var(--mc-bg) !important;
+  background: var(--mc-panel) !important;
   color: var(--mc-text) !important;
 }
 
@@ -401,13 +412,13 @@ i.RDCicon-completed {
 }
 
 .MainSurveyHeader.fixed .SurveyHeaderInfo {
-  background: var(--mc-bg) !important;
+  background: var(--mc-panel) !important;
   color: var(--mc-text) !important;
 }
 
 .questionItemLikert:nth-child(2n+1),
 .questionItemLikert:nth-child(2n) {
-  background: var(--mc-bg) !important;
+  background: var(--mc-panel) !important;
 }
 
 .help_desk_toggle {
@@ -420,7 +431,7 @@ i.RDCicon-completed {
 }
 
 .SurveyNb {
-  background: var(--mc-bg) !important;
+  background: var(--mc-panel) !important;
   color: var(--mc-text) !important;
 }
 
@@ -498,11 +509,11 @@ i.RDCicon-completed {
 }
 
 .SectorContainer {
-  background: var(--mc-bg) !important;
+  background: var(--mc-panel) !important;
 }
 
 .SurveyNb {
-  background: var(--mc-bg) !important;
+  background: var(--mc-panel) !important;
 }
 
 
