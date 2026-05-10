@@ -104,7 +104,7 @@ a:hover, a:focus { color:#a9c7ff !important; }
 }
 
 .dropdown-header {
-  text-align: left !important;
+  text-align: center !important;
   padding-left: 10px !important;
   padding-right: 10px !important;
 }
@@ -217,6 +217,12 @@ span.menu-text {
 .sidebar .menu-text,
 .sidebar span.menu-text {
   color: var(--mc-text) !important;
+}
+
+.sidebar .nav-item:hover,
+.sidebar .nav-link:hover,
+.sidebar .nav-link:focus {
+  background: #161a22 !important;
 }
 
 /* Improve readability in accordion bodies */
@@ -514,7 +520,9 @@ label.BoxTeacher,
 .UnitAssets li a:hover,
 .UnitAssets li a:focus,
 .AssetClick:hover,
-.AssetClick:focus {
+.AssetClick:focus,
+.ulAssets:hover,
+.ulAssets:focus {
   color: rgb(68, 147, 248) !important;
 }
 
