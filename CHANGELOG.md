@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.26] - 2026-05-12
+
+### Changed
+- Added `.ulAssets li a:hover, .ulAssets li a:focus` accent color to `rgb(68, 147, 248)`.
+
 ## [0.1.25] - 2026-05-12
 
 ### Changed
