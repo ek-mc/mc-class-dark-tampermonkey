@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MC-Class Dark Theme
 // @namespace    https://mc-class.gr/
-// @version      0.1.25
+// @version      0.1.26
 // @description  Dark theme for mc-class.gr
 // @author       ek-mc
 // @license      MIT
@@ -94,6 +94,12 @@ a:hover, a:focus { color:#a9c7ff !important; }
 
 #ctl00_CleverRightMenu1_upPanelRightMenu {
   padding: 6px 8px 6px 8px !important;
+  background: var(--mc-panel) !important;
+}
+
+#ctl00_lnkbtnLogout {
+  padding: 6px 8px 6px 8px !important;
+  background: var(--mc-panel) !important;
 }
 
 /* Keep dropdown icons centered in their own fixed slot */
@@ -357,6 +363,11 @@ img, video, canvas, svg { filter:brightness(.92) contrast(1.05); }
 .BoxStatus.Completed i,
 i.RDCicon-completed {
   color: #059669 !important;
+}
+
+.ulAssets li a:hover .FooterIconsStart > div:not(.AssetIcon),
+.ulAssets li a:focus .FooterIconsStart > div:not(.AssetIcon) {
+  color: rgb(68, 147, 248) !important;
 }
 
 /* Survey readability fixes */
