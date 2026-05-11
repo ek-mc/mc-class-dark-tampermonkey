@@ -1,6 +1,6 @@
 # MC-Class Dark Theme (Tampermonkey)
 
-![Version](https://img.shields.io/badge/version-0.1.24-2563eb)
+![Version](https://img.shields.io/badge/version-0.1.25-2563eb)
 ![Platform](https://img.shields.io/badge/platform-Tampermonkey-1f2937)
 
 Dark theme userscript for `mc-class.gr`.
