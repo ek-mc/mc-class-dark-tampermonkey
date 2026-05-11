@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MC-Class Dark Theme
 // @namespace    https://mc-class.gr/
-// @version      0.1.26
+// @version      0.1.25
 // @description  Dark theme for mc-class.gr
 // @author       ek-mc
 // @license      MIT
@@ -392,11 +392,6 @@ i.RDCicon-completed {
 .SurveyNb {
   background: var(--mc-panel) !important;
   color: var(--mc-text) !important;
-}
-
-.ulAssets li a:hover,
-.ulAssets li a:focus {
-  color: rgb(68, 147, 248) !important;
 }
 
 `;
