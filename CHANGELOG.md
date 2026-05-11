@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.24] - 2026-05-11
+
+### Fixed
+- Fixed userscript upload/runtime parse error (`Uncaught SyntaxError: Unexpected token '.'`) caused by stray CSS lines outside the script IIFE.
+
 ## [0.1.23] - 2026-05-09
 
 ### Fixed
