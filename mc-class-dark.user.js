@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MC-Class Dark Theme
 // @namespace    https://mc-class.gr/
-// @version      0.1.26
+// @version      0.1.27
 // @description  Dark theme for mc-class.gr
 // @author       ek-mc
 // @license      MIT
